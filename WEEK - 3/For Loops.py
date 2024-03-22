@@ -1,2 +1,9 @@
-for i in [3, 5, 6, 7, 8, 10]:
-    print(i + 2)
+for i in range(1, 21):
+    result = 13 * i
+    print("13 x", i, "=", result)
+
+print('\n')
+
+for i in range(1, 22):
+    result = 12 * i
+    print("12 x", i, "=", result)
