@@ -3,5 +3,4 @@ def print_multiplication_table(number, limit):
         result = number * i
         print(f"{number} x {i} = {result}")
 
-# Example usage:
 print_multiplication_table(13, 20)
