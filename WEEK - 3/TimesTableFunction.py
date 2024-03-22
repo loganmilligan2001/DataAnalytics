@@ -5,9 +5,10 @@ def print_custom_multiplication_table(number, start_multiplier, end_multiplier):
         print(f"{number} x {i} = {result}")
     print("Finished computing.")
 
-# Example usage:
-number = int(input("Enter the number you want to compute multiples of: "))
-start_multiplier = int(input("Enter the start multiplier: "))
-end_multiplier = int(input("Enter the end multiplier: "))
-
-print_custom_multiplication_table(number, start_multiplier, end_multiplier)
+while True:
+    number = int(input("Enter the number you want to compute multiples of (enter 0 to exit): "))
+    if number == 0:
+        break
+    start_multiplier = int(input("Enter the start multiplier: "))
+    end_multiplier = int(input("Enter the end multiplier: "))
+    print_custom_multiplication_table(number, start_multiplier, end_multiplier)
